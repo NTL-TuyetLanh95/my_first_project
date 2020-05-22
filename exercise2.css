@@ -1,0 +1,30 @@
+*{
+	margin: 0px;
+	border: none;
+	padding: 0px;
+}
+.section{
+	width:700px;
+	height: 900px;
+	margin-left: 100px;
+}
+.main{
+	width: 550px;
+	padding: 20px;
+}
+
+.data{
+	list-style-type: none;
+	text-align: left;
+
+}
+.data li{
+	display: inline-block;
+	width: 150px;
+	height: 100px;
+	text-align: left;
+	vertical-align: text-top;
+	padding: 20px;
+	font-weight: bold;
+}
+
