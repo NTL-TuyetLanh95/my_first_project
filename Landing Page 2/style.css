@@ -1,0 +1,162 @@
+body{
+	font-family: 'Meiryo' ;
+	margin: 0px;
+	padding: 0px;
+}
+a, li{
+	text-decoration: none;
+	list-style: none;
+}
+.clearfix{
+	clear: both;
+}
+.container-fluid {
+	width: 100%;
+	background-color: #f4f4f4;
+}
+.container {
+	width: 960px;
+	margin: 0px auto;
+}
+/*nav*/
+.container .nav .show_nav .logo {
+	width: 150px;
+	float: left;
+	margin: 7px 15px 0px 0px;
+}
+.container .nav .show_nav .logo img{
+	width: 20px;
+	float: left;
+	position: relative;
+	margin: 0px 5px 0px 0px;
+}
+.nav_data .nav_menu {
+	width: 650px;	
+	position: relative;
+}
+.nav_menu li{
+	float: left;
+	margin: 7px 25px 0px 0px;
+	height: 27px;
+}
+.icon {
+	width: 200px;
+	float: right;
+	margin: 7px 10px 0px 0px;
+}
+/* end nav*/
+/* header */
+.container .header {
+	margin-top: 7px 0px 7px 0px;
+	float: left;
+	position: relative;
+	width: 960px;
+	height: 200px;
+}
+.left_header {
+	width: 400px;
+	float: left;
+	position: absolute;
+}
+.left_header .content{
+	margin: 5px;
+	float: left;
+}
+.left_header .content h1{
+	font-size: 50px;
+}
+.left_header .content p{
+	margin: 15px 5px 5px 5px;
+}
+.blue {
+	color: blue;
+}
+.right_header{
+	width: 530px;
+	
+	background-color: pink;
+	float: right;
+	position: relative;
+}
+/* end header */
+/*service*/
+.container .service{
+	margin-top: 7px 0px 7px 0px;
+	float: left;
+	position: relative;
+}
+.service .content{
+	width: 500px;
+}
+.service .title{
+	width: 500px;
+}
+.service .title h5{
+	text-transform: uppercase;
+	color: #8eb2fd;
+}
+.service .title p{
+	color: #071e57;
+	font-size: 40px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+.service .content .content_title h6{
+	color: #b1bac3;
+	padding: 20px 0px 20px 0px;
+}
+.service .content-first .cnt-content{
+	position: relative;	
+}
+.cnt-content .box{
+	width: 200px;
+	height: 210px;
+	float: left;
+	background-color: #ffffff;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+.service .content-first .cnt-content .box h4 a{
+	color: #071e57;
+	font-size: 20px;
+	font-weight: bold;
+		
+}
+.service .content-first .cnt-content .box h4 a{
+	margin: 20px 0px 20px 0px;
+		
+}
+.service .content-first .cnt-content .box p{
+	color: #b1bac3;
+	margin: 10px 0px 10px 0px;
+}
+.service .content-first .cnt-content .box h3{
+	color: #fdfcfc;
+	margin: 10px 0px 10px 0px;
+	font-weight: bold;
+}
+/*cta_data*/
+.container .cta_data{
+	margin-top: 7px 0px 7px 0px;
+	float: left;
+	width: 960px;
+	position: relative;
+}
+.container .cta_data .title h2{
+	color: #071e57;
+	font-size: 25px;	
+	text-align: center;
+}
+.container .cta_data .title p {
+	margin-top: 20px;
+	color: #b1bac3;
+	text-align: center;
+}
+.container .cta_data .title .button_data {
+	margin-top: 20px;
+	color: #b1bac3;
+	text-align: center;
+	border: 1px solid coral;
+            height: 40vh;
+            width: 50vw;
+}
